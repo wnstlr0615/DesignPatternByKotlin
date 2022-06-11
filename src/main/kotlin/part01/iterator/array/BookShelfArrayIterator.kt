@@ -1,6 +1,6 @@
-package chapter01.iterator.array
+package part01.iterator.array
 
-import chapter01.iterator.Iterator
+import part01.iterator.Iterator
 
 class BookShelfArrayIterator(
     private var bookShelfArray: BookShelfArray,

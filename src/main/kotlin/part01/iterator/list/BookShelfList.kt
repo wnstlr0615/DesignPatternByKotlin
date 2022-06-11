@@ -1,8 +1,8 @@
-package chapter01.iterator.list
+package part01.iterator.list
 
-import chapter01.iterator.Aggregate
-import chapter01.iterator.Book
-import chapter01.iterator.Iterator
+import part01.iterator.Aggregate
+import part01.iterator.Book
+import part01.iterator.Iterator
 
 class BookShelfList(
     private val books: MutableList<Book> = mutableListOf()

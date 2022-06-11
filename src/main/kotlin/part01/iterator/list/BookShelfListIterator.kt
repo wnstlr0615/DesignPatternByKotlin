@@ -1,6 +1,6 @@
-package chapter01.iterator.list
-import chapter01.iterator.Book
-import chapter01.iterator.Iterator
+package part01.iterator.list
+import part01.iterator.Book
+import part01.iterator.Iterator
 
 class BookShelfListIterator(
     private val bookShelfList: BookShelfList,

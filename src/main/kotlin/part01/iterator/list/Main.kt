@@ -1,6 +1,6 @@
-package chapter01.iterator.list
+package part01.iterator.list
 
-import chapter01.iterator.Book
+import part01.iterator.Book
 
 fun main() {
     val bookShelfList = BookShelfList()

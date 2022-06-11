@@ -1,6 +1,6 @@
-package chapter01.iterator.array
+package part01.iterator.array
 
-import chapter01.iterator.Book
+import part01.iterator.Book
 
 fun main() {
     val bookShelfArray = BookShelfArray(4)
