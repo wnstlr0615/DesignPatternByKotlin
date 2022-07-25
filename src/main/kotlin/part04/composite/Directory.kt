@@ -3,7 +3,7 @@ package part04.composite
 class Directory(
     private val name: String
 ) : Entry() {
-    val directory = mutableListOf<Entry>()
+    private val directory = mutableListOf<Entry>()
     override fun getName() = name
 
     override fun getSize() = directory.stream().mapToInt { it.getSize() }.sum()
